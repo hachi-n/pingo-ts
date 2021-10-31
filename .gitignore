@@ -1,0 +1,8 @@
+## pingo-ts
+/dist
+
+## typescript
+/node_modules
+
+## intelliJ
+/.idea
