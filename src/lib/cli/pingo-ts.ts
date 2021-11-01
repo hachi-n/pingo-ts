@@ -6,10 +6,9 @@ export class PingoTs {
         // options
     }
 
-    apply() {
+    apply(hostname: string) {
         let i = new icmp.Icmp
-        const domain = "www.google.com"
-        this.ping(i, domain);
+        this.ping(i, hostname);
     }
 
     private ping(p: pingable.Pingable, hostname: string) {
