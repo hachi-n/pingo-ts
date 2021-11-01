@@ -26,7 +26,7 @@ export class Icmp extends protocol.Protocol implements pingable.Pingable {
         )
     }
 
-    private createSocket(): any {
+    private createSocket(): object {
         let options = {
             protocol: raw.Protocol.ICMP,
         };
